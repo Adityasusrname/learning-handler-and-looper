@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+   <Button
+       android:id="@+id/start"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Start"
+       android:onClick="startThread"
+       />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:onClick="stopThread"
+        />
+    <Button
+        android:id="@+id/taskA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TaskA"
+        android:onClick="taskA"
+        />
+    <Button
+        android:id="@+id/taskB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TaskB"
+        android:onClick="taskB"
+        />
+
+
+
+
+</LinearLayout>
